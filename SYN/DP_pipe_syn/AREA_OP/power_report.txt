@@ -1,0 +1,57 @@
+Loading db file '/usr/cad/CBDK_TSMC40_Arm_f2.0/CIC/SynopsysDC/db/sc9_base_rvt/sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : dp_pipe
+Version: Q-2019.12
+Date   : Thu Dec  1 01:08:56 2022
+****************************************
+
+
+Library(s) Used:
+
+    sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c (File: /usr/cad/CBDK_TSMC40_Arm_f2.0/CIC/SynopsysDC/db/sc9_base_rvt/sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c.db)
+
+
+Operating Conditions: ss_typical_max_0p81v_125c   Library: sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+dp_pipe                Zero              sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c
+
+
+Global Operating Voltage = 0.81 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1uW
+
+
+  Cell Internal Power  = 713.2750 uW   (78%)
+  Net Switching Power  = 206.6914 uW   (22%)
+                         ---------
+Total Dynamic Power    = 919.9664 uW  (100%)
+
+Cell Leakage Power     = 209.2351 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  3.3368e-04        5.2639e-03        1.3314e-02        5.6109e-03  (   0.50%)
+register           0.4052        1.3817e-02           33.9154            0.4529  (  40.11%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.3078            0.1876          175.2995            0.6707  (  59.40%)
+--------------------------------------------------------------------------------------------------
+Total              0.7133 mW         0.2067 mW       209.2283 uW         1.1292 mW
+1

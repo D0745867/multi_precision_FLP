@@ -1,0 +1,344 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : dp_nonpipe
+Version: Q-2019.12
+Date   : Wed Nov 30 16:44:26 2022
+****************************************
+
+Operating Conditions: ss_typical_max_0p81v_125c   Library: sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c
+Wire Load Model Mode: top
+
+  Startpoint: y3[3] (input port clocked by clk)
+  Endpoint: result[9] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  dp_nonpipe         Zero                  sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  y3[3] (in)                                              0.00       0.00 r
+  mult_179/b[3] (dp_nonpipe_DW_mult_uns_20)               0.00       0.00 r
+  mult_179/U539/Y (BUFH_X3M_A9TR)                         0.02       0.02 r
+  mult_179/U378/Y (XNOR2_X0P7M_A9TR)                      0.08       0.10 r
+  mult_179/U358/Y (OAI22_X1M_A9TR)                        0.07       0.17 f
+  mult_179/U503/S (ADDH_X2M_A9TR)                         0.09       0.26 f
+  mult_179/U380/CO (ADDF_X1M_A9TR)                        0.09       0.35 f
+  mult_179/U558/CO (ADDF_X1M_A9TR)                        0.08       0.43 f
+  mult_179/U556/CO (ADDF_X1M_A9TR)                        0.08       0.51 f
+  mult_179/U555/CO (ADDF_X1M_A9TR)                        0.08       0.60 f
+  mult_179/U557/CO (ADDF_X1M_A9TR)                        0.08       0.68 f
+  mult_179/U553/CO (ADDF_X1M_A9TR)                        0.08       0.76 f
+  mult_179/U554/CO (ADDF_X1M_A9TR)                        0.08       0.84 f
+  mult_179/U637/CO (ADDF_X1M_A9TR)                        0.08       0.92 f
+  mult_179/U559/CO (ADDF_X1M_A9TR)                        0.08       1.01 f
+  mult_179/U560/CO (ADDF_X1M_A9TR)                        0.08       1.09 f
+  mult_179/U561/CO (ADDF_X1M_A9TR)                        0.08       1.17 f
+  mult_179/U550/S (ADDF_X1M_A9TR)                         0.11       1.28 r
+  mult_179/product[14] (dp_nonpipe_DW_mult_uns_20)        0.00       1.28 r
+  add_0_root_add_0_root_add_193_2/A[14] (dp_nonpipe_DW01_add_22)
+                                                          0.00       1.28 r
+  add_0_root_add_0_root_add_193_2/U78/CO (ADDF_X1M_A9TR)
+                                                          0.09       1.37 r
+  add_0_root_add_0_root_add_193_2/U68/CO (ADDF_X1M_A9TR)
+                                                          0.09       1.46 r
+  add_0_root_add_0_root_add_193_2/U82/CO (ADDF_X1M_A9TR)
+                                                          0.08       1.54 r
+  add_0_root_add_0_root_add_193_2/U69/CO (ADDF_X1M_A9TR)
+                                                          0.08       1.62 r
+  add_0_root_add_0_root_add_193_2/U61/CO (ADDF_X1M_A9TR)
+                                                          0.08       1.71 r
+  add_0_root_add_0_root_add_193_2/U62/CO (ADDF_X1M_A9TR)
+                                                          0.08       1.79 r
+  add_0_root_add_0_root_add_193_2/U63/CO (ADDF_X1M_A9TR)
+                                                          0.08       1.87 r
+  add_0_root_add_0_root_add_193_2/U64/CO (ADDF_X1M_A9TR)
+                                                          0.08       1.95 r
+  add_0_root_add_0_root_add_193_2/U70/CO (ADDF_X1M_A9TR)
+                                                          0.08       2.04 r
+  add_0_root_add_0_root_add_193_2/U71/CO (ADDF_X1M_A9TR)
+                                                          0.08       2.12 r
+  add_0_root_add_0_root_add_193_2/U65/CO (ADDF_X1M_A9TR)
+                                                          0.08       2.20 r
+  add_0_root_add_0_root_add_193_2/U76/CO (ADDF_X1M_A9TR)
+                                                          0.08       2.29 r
+  add_0_root_add_0_root_add_193_2/U80/CO (ADDF_X1M_A9TR)
+                                                          0.08       2.37 r
+  add_0_root_add_0_root_add_193_2/U83/CO (ADDF_X1M_A9TR)
+                                                          0.08       2.45 r
+  add_0_root_add_0_root_add_193_2/U72/CO (ADDF_X1M_A9TR)
+                                                          0.08       2.53 r
+  add_0_root_add_0_root_add_193_2/U81/CO (ADDF_X1M_A9TR)
+                                                          0.08       2.62 r
+  add_0_root_add_0_root_add_193_2/U74/CO (ADDF_X1M_A9TR)
+                                                          0.08       2.70 r
+  add_0_root_add_0_root_add_193_2/U75/CO (ADDF_X1M_A9TR)
+                                                          0.08       2.78 r
+  add_0_root_add_0_root_add_193_2/U48/CO (ADDF_X2M_A9TR)
+                                                          0.08       2.86 r
+  add_0_root_add_0_root_add_193_2/U47/CO (ADDF_X2M_A9TR)
+                                                          0.08       2.94 r
+  add_0_root_add_0_root_add_193_2/U50/CO (ADDF_X2M_A9TR)
+                                                          0.08       3.02 r
+  add_0_root_add_0_root_add_193_2/U49/CO (ADDF_X2M_A9TR)
+                                                          0.08       3.10 r
+  add_0_root_add_0_root_add_193_2/U73/CO (ADDF_X1M_A9TR)
+                                                          0.08       3.18 r
+  add_0_root_add_0_root_add_193_2/U45/CO (ADDF_X1M_A9TR)
+                                                          0.08       3.26 r
+  add_0_root_add_0_root_add_193_2/U66/CO (ADDH_X1M_A9TR)
+                                                          0.06       3.32 r
+  add_0_root_add_0_root_add_193_2/U51/CO (ADDH_X2M_A9TR)
+                                                          0.05       3.36 r
+  add_0_root_add_0_root_add_193_2/U52/CO (ADDH_X2M_A9TR)
+                                                          0.04       3.40 r
+  add_0_root_add_0_root_add_193_2/U53/CO (ADDH_X2M_A9TR)
+                                                          0.04       3.45 r
+  add_0_root_add_0_root_add_193_2/U54/CO (ADDH_X2M_A9TR)
+                                                          0.04       3.49 r
+  add_0_root_add_0_root_add_193_2/U55/CO (ADDH_X2M_A9TR)
+                                                          0.04       3.53 r
+  add_0_root_add_0_root_add_193_2/U56/CO (ADDH_X2M_A9TR)
+                                                          0.04       3.57 r
+  add_0_root_add_0_root_add_193_2/U57/CO (ADDH_X2M_A9TR)
+                                                          0.04       3.62 r
+  add_0_root_add_0_root_add_193_2/U58/CO (ADDH_X2M_A9TR)
+                                                          0.04       3.66 r
+  add_0_root_add_0_root_add_193_2/U59/S (ADDH_X2M_A9TR)
+                                                          0.09       3.75 f
+  add_0_root_add_0_root_add_193_2/SUM[47] (dp_nonpipe_DW01_add_22)
+                                                          0.00       3.75 f
+  U5616/Y (OA22_X1M_A9TR)                                 0.07       3.81 f
+  U5617/Y (NAND2_X1B_A9TR)                                0.03       3.84 r
+  U3891/Y (INV_X1M_A9TR)                                  0.02       3.86 f
+  U5650/Y (OA22_X1M_A9TR)                                 0.06       3.92 f
+  U5652/Y (NAND2_X1B_A9TR)                                0.03       3.95 r
+  U1580/Y (OA22_X1M_A9TR)                                 0.07       4.02 r
+  U1579/Y (NAND3_X1A_A9TR)                                0.04       4.06 f
+  U1581/Y (INV_X2M_A9TR)                                  0.03       4.09 r
+  add_0_root_add_266_S2_ni/A[0] (dp_nonpipe_DW01_inc_2)
+                                                          0.00       4.09 r
+  add_0_root_add_266_S2_ni/U1_1_1/CO (ADDH_X1M_A9TR)      0.05       4.14 r
+  add_0_root_add_266_S2_ni/U1_1_2/CO (ADDH_X1M_A9TR)      0.05       4.20 r
+  add_0_root_add_266_S2_ni/U1_1_3/CO (ADDH_X1M_A9TR)      0.05       4.25 r
+  add_0_root_add_266_S2_ni/U1_1_4/CO (ADDH_X1M_A9TR)      0.05       4.30 r
+  add_0_root_add_266_S2_ni/U1_1_5/S (ADDH_X1M_A9TR)       0.09       4.39 f
+  add_0_root_add_266_S2_ni/SUM[5] (dp_nonpipe_DW01_inc_2)
+                                                          0.00       4.39 f
+  U1568/Y (MXT2_X0P7M_A9TR)                               0.07       4.46 f
+  add_279/A[5] (dp_nonpipe_DW01_add_19)                   0.00       4.46 f
+  add_279/U636/Y (OR2_X1B_A9TR)                           0.06       4.52 f
+  add_279/U598/Y (AOI21B_X1M_A9TR)                        0.05       4.56 r
+  add_279/U626/Y (OA21_X1M_A9TR)                          0.07       4.64 r
+  add_279/U618/Y (OAI21_X1M_A9TR)                         0.04       4.68 f
+  add_279/U599/Y (AOI21B_X1M_A9TR)                        0.06       4.74 r
+  add_279/U619/Y (OAI21_X1M_A9TR)                         0.05       4.79 f
+  add_279/U600/Y (AOI21B_X1M_A9TR)                        0.06       4.84 r
+  add_279/U620/Y (OAI21_X1M_A9TR)                         0.05       4.89 f
+  add_279/U558/Y (AOI21B_X1M_A9TR)                        0.06       4.95 r
+  add_279/U576/Y (OAI21_X1M_A9TR)                         0.05       5.00 f
+  add_279/U559/Y (AOI21B_X1M_A9TR)                        0.06       5.06 r
+  add_279/U577/Y (OAI21_X1M_A9TR)                         0.05       5.11 f
+  add_279/U560/Y (AOI21B_X1M_A9TR)                        0.06       5.17 r
+  add_279/U569/Y (OAI21_X1M_A9TR)                         0.05       5.22 f
+  add_279/U552/Y (AOI21B_X1M_A9TR)                        0.06       5.27 r
+  add_279/U570/Y (OAI21_X1M_A9TR)                         0.05       5.32 f
+  add_279/U553/Y (AOI21B_X1M_A9TR)                        0.06       5.38 r
+  add_279/U571/Y (OAI21_X1M_A9TR)                         0.05       5.43 f
+  add_279/U554/Y (AOI21B_X1M_A9TR)                        0.06       5.49 r
+  add_279/U572/Y (OAI21_X1M_A9TR)                         0.05       5.54 f
+  add_279/U555/Y (AOI21B_X1M_A9TR)                        0.06       5.59 r
+  add_279/U578/Y (OAI21_X1M_A9TR)                         0.05       5.64 f
+  add_279/U561/Y (AOI21B_X1M_A9TR)                        0.06       5.70 r
+  add_279/U583/Y (OA21_X1M_A9TR)                          0.07       5.77 r
+  add_279/U573/Y (OAI21_X1M_A9TR)                         0.04       5.82 f
+  add_279/U556/Y (AOI21B_X1M_A9TR)                        0.06       5.87 r
+  add_279/U574/Y (OAI21_X1M_A9TR)                         0.05       5.92 f
+  add_279/U557/Y (AOI21B_X1M_A9TR)                        0.06       5.98 r
+  add_279/U575/Y (OAI21_X1M_A9TR)                         0.05       6.03 f
+  add_279/U562/Y (AOI21B_X1M_A9TR)                        0.06       6.09 r
+  add_279/U579/Y (OAI21_X1M_A9TR)                         0.05       6.14 f
+  add_279/U563/Y (AOI21B_X1M_A9TR)                        0.06       6.19 r
+  add_279/U580/Y (OAI21_X1M_A9TR)                         0.05       6.24 f
+  add_279/U564/Y (AOI21B_X1M_A9TR)                        0.06       6.30 r
+  add_279/U581/Y (OAI21_X1M_A9TR)                         0.05       6.35 f
+  add_279/U565/Y (AOI21B_X1M_A9TR)                        0.06       6.41 r
+  add_279/U582/Y (OAI21_X1M_A9TR)                         0.05       6.46 f
+  add_279/U566/Y (AOI21B_X1M_A9TR)                        0.06       6.52 r
+  add_279/U409/Y (OAI21_X1P4M_A9TR)                       0.04       6.56 f
+  add_279/U567/Y (AOI21B_X1M_A9TR)                        0.06       6.62 r
+  add_279/U408/Y (OAI21_X1P4M_A9TR)                       0.04       6.66 f
+  add_279/U568/Y (AOI21B_X1M_A9TR)                        0.06       6.71 r
+  add_279/U407/Y (OAI21_X1P4M_A9TR)                       0.05       6.76 f
+  add_279/U375/Y (AOI21B_X3M_A9TR)                        0.04       6.80 r
+  add_279/U398/Y (OAI21_X1P4M_A9TR)                       0.04       6.84 f
+  add_279/U377/Y (AOI21B_X3M_A9TR)                        0.05       6.89 r
+  add_279/U376/Y (OAI21_X3M_A9TR)                         0.04       6.92 f
+  add_279/U371/Y (XNOR2_X3M_A9TR)                         0.05       6.97 f
+  add_279/SUM[51] (dp_nonpipe_DW01_add_19)                0.00       6.97 f
+  U1721/Y (INV_X0P5B_A9TR)                                0.05       7.02 r
+  U6010/Y (NAND2_X1B_A9TR)                                0.05       7.07 f
+  U1720/Y (NAND2_X2B_A9TR)                                0.04       7.11 r
+  U1719/Y (OAI222_X2M_A9TR)                               0.05       7.16 f
+  U1643/Y (NAND2_X2M_A9TR)                                0.04       7.20 r
+  U1709/Y (NAND3_X2A_A9TR)                                0.03       7.23 f
+  add_319/B[0] (dp_nonpipe_DW01_add_26)                   0.00       7.23 f
+  add_319/U70/Y (NAND2_X2M_A9TR)                          0.03       7.26 r
+  add_319/U106/Y (INV_X1B_A9TR)                           0.03       7.28 f
+  add_319/U100/CO (ADDF_X2M_A9TR)                         0.07       7.36 f
+  add_319/U99/CO (ADDF_X2M_A9TR)                          0.08       7.44 f
+  add_319/U96/CO (ADDF_X2M_A9TR)                          0.08       7.51 f
+  add_319/U95/CO (ADDF_X2M_A9TR)                          0.08       7.59 f
+  add_319/U93/CO (ADDF_X2M_A9TR)                          0.08       7.67 f
+  add_319/U92/CO (ADDF_X2M_A9TR)                          0.08       7.74 f
+  add_319/U129/CO (ADDF_X1M_A9TR)                         0.07       7.82 f
+  add_319/U68/CO (ADDFH_X2M_A9TR)                         0.09       7.91 f
+  add_319/U91/CO (ADDF_X2M_A9TR)                          0.08       7.99 f
+  add_319/U86/CO (ADDF_X2M_A9TR)                          0.08       8.06 f
+  add_319/U85/CO (ADDF_X2M_A9TR)                          0.08       8.14 f
+  add_319/U82/CO (ADDF_X2M_A9TR)                          0.08       8.22 f
+  add_319/U104/CO (ADDF_X2M_A9TR)                         0.08       8.29 f
+  add_319/U103/CO (ADDF_X2M_A9TR)                         0.08       8.37 f
+  add_319/U78/CO (ADDF_X2M_A9TR)                          0.08       8.45 f
+  add_319/U77/CO (ADDF_X2M_A9TR)                          0.08       8.52 f
+  add_319/U74/CO (ADDF_X2M_A9TR)                          0.08       8.60 f
+  add_319/U76/CO (ADDF_X2M_A9TR)                          0.08       8.68 f
+  add_319/U75/CO (ADDF_X2M_A9TR)                          0.08       8.76 f
+  add_319/U80/CO (ADDF_X2M_A9TR)                          0.08       8.83 f
+  add_319/U79/CO (ADDF_X2M_A9TR)                          0.08       8.91 f
+  add_319/U118/CO (ADDF_X1M_A9TR)                         0.07       8.98 f
+  add_319/U88/CO (ADDFH_X2M_A9TR)                         0.09       9.07 f
+  add_319/U87/CO (ADDF_X2M_A9TR)                          0.08       9.15 f
+  add_319/U90/CO (ADDF_X2M_A9TR)                          0.08       9.23 f
+  add_319/U89/CO (ADDF_X2M_A9TR)                          0.08       9.30 f
+  add_319/U119/CO (ADDF_X1M_A9TR)                         0.08       9.38 f
+  add_319/U120/CO (ADDF_X1M_A9TR)                         0.08       9.47 f
+  add_319/U121/CO (ADDF_X1M_A9TR)                         0.08       9.55 f
+  add_319/U122/CO (ADDF_X1M_A9TR)                         0.08       9.63 f
+  add_319/U123/CO (ADDF_X1M_A9TR)                         0.08       9.71 f
+  add_319/U124/CO (ADDF_X1M_A9TR)                         0.07       9.79 f
+  add_319/U98/CO (ADDFH_X2M_A9TR)                         0.09       9.88 f
+  add_319/U97/CO (ADDF_X2M_A9TR)                          0.08       9.96 f
+  add_319/U73/CO (ADDF_X2M_A9TR)                          0.08      10.03 f
+  add_319/U72/CO (ADDF_X2M_A9TR)                          0.08      10.11 f
+  add_319/U126/CO (ADDF_X1M_A9TR)                         0.07      10.18 f
+  add_319/U84/CO (ADDFH_X2M_A9TR)                         0.09      10.27 f
+  add_319/U83/CO (ADDF_X2M_A9TR)                          0.08      10.35 f
+  add_319/U127/CO (ADDF_X1M_A9TR)                         0.07      10.42 f
+  add_319/U108/CO (ADDFH_X2M_A9TR)                        0.09      10.52 f
+  add_319/U94/CO (ADDF_X2M_A9TR)                          0.08      10.59 f
+  add_319/U128/CO (ADDF_X1M_A9TR)                         0.07      10.66 f
+  add_319/U107/CO (ADDFH_X2M_A9TR)                        0.09      10.76 f
+  add_319/U102/CO (ADDF_X2M_A9TR)                         0.08      10.84 f
+  add_319/U101/Y (INV_X2P5M_A9TR)                         0.02      10.86 r
+  add_319/U109/Y (OAI21_X3M_A9TR)                         0.03      10.88 f
+  add_319/U111/CO (ADDF_X2M_A9TR)                         0.08      10.96 f
+  add_319/U125/CO (ADDF_X1M_A9TR)                         0.07      11.03 f
+  add_319/U110/CO (ADDFH_X2M_A9TR)                        0.09      11.12 f
+  add_319/U69/CO (ADDFH_X2M_A9TR)                         0.09      11.21 f
+  add_319/U113/Y (XOR2_X1P4M_A9TR)                        0.04      11.25 f
+  add_319/SUM[51] (dp_nonpipe_DW01_add_26)                0.00      11.25 f
+  U1338/Y (BUFH_X3P5M_A9TR)                               0.04      11.29 f
+  U1364/Y (INV_X5M_A9TR)                                  0.02      11.31 r
+  U1390/Y (INV_X11B_A9TR)                                 0.02      11.33 f
+  U1389/Y (MXIT2_X4M_A9TR)                                0.03      11.36 f
+  U1426/Y (INV_X3B_A9TR)                                  0.02      11.38 r
+  U1740/Y (NAND2_X2M_A9TR)                                0.02      11.40 f
+  U1739/Y (NAND2_X2M_A9TR)                                0.02      11.42 r
+  U1435/Y (NAND2_X1A_A9TR)                                0.02      11.44 f
+  U1659/Y (NAND2_X1A_A9TR)                                0.03      11.47 r
+  U6238/Y (NAND2_X1B_A9TR)                                0.02      11.49 f
+  U1728/Y (NAND2_X1A_A9TR)                                0.03      11.52 r
+  U1727/Y (NAND2_X1A_A9TR)                                0.02      11.54 f
+  U1957/Y (NAND2_X1B_A9TR)                                0.03      11.57 r
+  U6239/Y (NAND2_X1B_A9TR)                                0.02      11.60 f
+  U1958/Y (NAND2_X1B_A9TR)                                0.03      11.63 r
+  U6240/Y (NAND2_X1B_A9TR)                                0.02      11.65 f
+  U1955/Y (NAND2_X1B_A9TR)                                0.03      11.68 r
+  U6241/Y (NAND2_X1B_A9TR)                                0.03      11.71 f
+  U1956/Y (NAND2_X1B_A9TR)                                0.03      11.74 r
+  U6242/Y (NAND2_X1B_A9TR)                                0.03      11.77 f
+  U1932/Y (NAND2_X1B_A9TR)                                0.03      11.80 r
+  U6243/Y (NAND2_X1B_A9TR)                                0.03      11.83 f
+  U1933/Y (NAND2_X1B_A9TR)                                0.03      11.86 r
+  U6244/Y (NAND2_X1B_A9TR)                                0.03      11.88 f
+  U1940/Y (NAND2_X1B_A9TR)                                0.03      11.92 r
+  U6245/Y (NAND2_X1B_A9TR)                                0.03      11.94 f
+  U1941/Y (NAND2_X1B_A9TR)                                0.03      11.97 r
+  U6246/Y (NAND2_X1B_A9TR)                                0.03      12.00 f
+  U1934/Y (NAND2_X1B_A9TR)                                0.03      12.03 r
+  U6247/Y (NAND2_X1B_A9TR)                                0.03      12.06 f
+  U1935/Y (NAND2_X1B_A9TR)                                0.03      12.09 r
+  U6248/Y (NAND2_X1B_A9TR)                                0.03      12.12 f
+  U1938/Y (NAND2_X1B_A9TR)                                0.03      12.15 r
+  U6249/Y (NAND2_X1B_A9TR)                                0.03      12.18 f
+  U1939/Y (NAND2_X1B_A9TR)                                0.03      12.21 r
+  U6250/Y (NAND2_X1B_A9TR)                                0.03      12.24 f
+  U1936/Y (NAND2_X1B_A9TR)                                0.03      12.27 r
+  U6251/Y (NAND2_X1B_A9TR)                                0.03      12.31 f
+  U1937/Y (NAND2_X1B_A9TR)                                0.03      12.34 r
+  U6252/Y (NAND2_X1B_A9TR)                                0.03      12.37 f
+  U1651/Y (NAND2_X1A_A9TR)                                0.03      12.40 r
+  U1650/Y (NAND2_X1A_A9TR)                                0.03      12.43 f
+  U1649/Y (NAND2_X1A_A9TR)                                0.03      12.46 r
+  U1930/Y (NAND2_X1A_A9TR)                                0.03      12.49 f
+  U1695/Y (NAND2_X1A_A9TR)                                0.03      12.52 r
+  U1696/Y (AND2_X1B_A9TR)                                 0.05      12.57 r
+  U1648/Y (NAND2_X1A_A9TR)                                0.02      12.59 f
+  U1647/Y (NAND2_X1A_A9TR)                                0.03      12.62 r
+  U1646/Y (NAND2_X1A_A9TR)                                0.03      12.65 f
+  U1931/Y (NAND2_X1B_A9TR)                                0.03      12.68 r
+  U1345/Y (NAND2_X1A_A9TR)                                0.03      12.71 f
+  U1653/Y (NAND2_X1A_A9TR)                                0.03      12.75 r
+  U1346/Y (NAND2_X1A_A9TR)                                0.04      12.78 f
+  U1674/Y (NAND2_X2M_A9TR)                                0.04      12.83 r
+  U2355/Y (NAND2_X2B_A9TR)                                0.02      12.85 f
+  U3157/Y (BUFH_X1M_A9TR)                                 0.05      12.90 f
+  U1852/Y (BUFH_X3P5M_A9TR)                               0.04      12.94 f
+  U1969/Y (NAND2_X3B_A9TR)                                0.02      12.96 r
+  U3155/Y (INV_X1M_A9TR)                                  0.02      12.98 f
+  U1741/Y (NAND2_X0P5B_A9TR)                              0.03      13.00 r
+  U1425/Y (BUFH_X1P7M_A9TR)                               0.04      13.04 r
+  U3099/Y (INV_X1M_A9TR)                                  0.02      13.06 f
+  U1617/Y (INV_X2M_A9TR)                                  0.03      13.09 r
+  U2061/Y (OA22_X0P5M_A9TR)                               0.10      13.19 r
+  U1293/Y (NAND2_X2A_A9TR)                                0.02      13.21 f
+  U6340/Y (OAI222_X1M_A9TR)                               0.07      13.28 r
+  U1730/Y (MXIT2_X1P4M_A9TR)                              0.06      13.34 f
+  U1729/Y (NAND2_X2B_A9TR)                                0.03      13.36 r
+  U1834/Y (AO22_X1M_A9TR)                                 0.07      13.43 r
+  add_372/A[1] (dp_nonpipe_DW01_inc_1)                    0.00      13.43 r
+  add_372/U1_1_1/CO (ADDH_X2M_A9TR)                       0.05      13.49 r
+  add_372/U1_1_2/CO (ADDH_X1M_A9TR)                       0.05      13.54 r
+  add_372/U1_1_3/CO (ADDH_X2M_A9TR)                       0.05      13.59 r
+  add_372/U1_1_4/CO (ADDH_X2M_A9TR)                       0.04      13.63 r
+  add_372/U1_1_5/CO (ADDH_X1M_A9TR)                       0.05      13.68 r
+  add_372/U1_1_6/CO (ADDH_X1M_A9TR)                       0.05      13.74 r
+  add_372/U1_1_7/CO (ADDH_X1M_A9TR)                       0.05      13.79 r
+  add_372/U1_1_8/CO (ADDH_X1M_A9TR)                       0.05      13.84 r
+  add_372/U1_1_9/Y (XOR2_X1P4M_A9TR)                      0.06      13.90 r
+  add_372/SUM[9] (dp_nonpipe_DW01_inc_1)                  0.00      13.90 r
+  U1702/Y (AO22_X2M_A9TR)                                 0.06      13.96 r
+  U1652/Y (NAND3B_X3M_A9TR)                               0.04      14.00 r
+  result[9] (out)                                         0.00      14.00 r
+  data arrival time                                                 14.00
+
+  max_delay                                              14.00      14.00
+  output external delay                                   0.00      14.00
+  data required time                                                14.00
+  --------------------------------------------------------------------------
+  data required time                                                14.00
+  data arrival time                                                -14.00
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

@@ -1,0 +1,98 @@
+ 
+****************************************
+Report : area
+Design : dp_pipe
+Version: Q-2019.12
+Date   : Thu Dec  1 02:05:28 2022
+****************************************
+
+Library(s) Used:
+
+    sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c (File: /usr/cad/CBDK_TSMC40_Arm_f2.0/CIC/SynopsysDC/db/sc9_base_rvt/sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c.db)
+
+Number of ports:                         6556
+Number of nets:                         21991
+Number of cells:                        13631
+Number of combinational cells:          12819
+Number of sequential cells:               757
+Number of macros/black boxes:               0
+Number of buf/inv:                       2384
+Number of references:                      18
+
+Combinational area:              18915.800072
+Buf/Inv area:                     1239.235187
+Noncombinational area:            3434.659031
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 22350.459103
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  ------------------------------
+dp_pipe                           22350.4591    100.0     63.7308     0.0000  0.0000  dp_pipe
+DP_adder_L1                        4167.9036     18.6   2951.8020     0.0000  0.0000  pipe_3
+DP_adder_L1/add_0_root_add_72_S2_ni   119.9772     0.5   119.9772     0.0000  0.0000  pipe_3_DW01_inc_1_DW01_inc_3
+DP_adder_L1/add_0_root_add_75_S2_ni   119.5236     0.5   119.5236     0.0000  0.0000  pipe_3_DW01_inc_0_DW01_inc_2
+DP_adder_L1/add_0_root_add_78_S2_ni   124.5132     0.6   124.5132     0.0000  0.0000  pipe_3_DW01_inc_3_DW01_inc_5
+DP_adder_L1/add_0_root_add_81_S2_ni   123.1524     0.6   123.1524     0.0000  0.0000  pipe_3_DW01_inc_2_DW01_inc_4
+DP_adder_L1/add_90                  273.2940      1.2    273.2940     0.0000  0.0000  pipe_3_DW01_add_3
+DP_adder_L1/add_91                  274.2012      1.2    274.2012     0.0000  0.0000  pipe_3_DW01_add_2
+DP_adder_L1/sub_21                   44.9064      0.2     44.9064     0.0000  0.0000  pipe_3_DW01_sub_11
+DP_adder_L1/sub_21_2                 45.8136      0.2     45.8136     0.0000  0.0000  pipe_3_DW01_sub_10
+DP_adder_L1/sub_23                   44.9064      0.2     44.9064     0.0000  0.0000  pipe_3_DW01_sub_9
+DP_adder_L1/sub_23_2                 45.8136      0.2     45.8136     0.0000  0.0000  pipe_3_DW01_sub_8
+DP_adder_L2                        1901.7180      8.5   1384.8408     0.0000  0.0000  pipe_4
+DP_adder_L2/add_0_root_add_53_S2_ni   127.6884     0.6   127.6884     0.0000  0.0000  pipe_4_DW01_inc_2
+DP_adder_L2/add_47                  298.2420      1.3    298.2420     0.0000  0.0000  pipe_4_DW01_add_2
+DP_adder_L2/sub_17                   44.9064      0.2     44.9064     0.0000  0.0000  pipe_4_DW01_sub_4
+DP_adder_L2/sub_17_2                 46.0404      0.2     46.0404     0.0000  0.0000  pipe_4_DW01_sub_3
+R1                                 1292.9867      5.8     22.9068  1270.0799  0.0000  reg_1
+R2                                 1129.2371      5.1     20.1852  1109.0519  0.0000  reg_2
+R3                                  554.9796      2.5     10.6596   544.3200  0.0000  reg_3
+R4                                  518.0112      2.3      9.9792   508.0320  0.0000  reg_4
+clk_gate_C33                          3.1752      0.0      0.0000     3.1752  0.0000  SNPS_CLOCK_GATE_HIGH_dp_pipe
+multiplier                        11322.5362     50.7    219.3156     0.0000  0.0000  pipe_2
+multiplier/add_0_root_add_0_root_add_66_2   156.7188     0.7   156.7188    0.0000 0.0000 pipe_2_DW01_add_16
+multiplier/add_0_root_add_0_root_add_67_2   156.7188     0.7   156.7188    0.0000 0.0000 pipe_2_DW01_add_17
+multiplier/add_0_root_add_0_root_add_68_2   156.7188     0.7   156.7188    0.0000 0.0000 pipe_2_DW01_add_18
+multiplier/add_0_root_add_0_root_add_69_2   156.7188     0.7   156.7188    0.0000 0.0000 pipe_2_DW01_add_19
+multiplier/add_1_root_add_0_root_add_66_2    93.2148     0.4    93.2148    0.0000 0.0000 pipe_2_DW01_add_7_DW01_add_10
+multiplier/add_1_root_add_0_root_add_67_2    93.2148     0.4    93.2148    0.0000 0.0000 pipe_2_DW01_add_5_DW01_add_8
+multiplier/add_1_root_add_0_root_add_68_2    93.2148     0.4    93.2148    0.0000 0.0000 pipe_2_DW01_add_11_DW01_add_14
+multiplier/add_1_root_add_0_root_add_69_2    93.2148     0.4    93.2148    0.0000 0.0000 pipe_2_DW01_add_9_DW01_add_12
+multiplier/mult_42                  647.9676      2.9    647.9676     0.0000  0.0000  pipe_2_DW_mult_uns_20
+multiplier/mult_43                  616.6692      2.8    616.6692     0.0000  0.0000  pipe_2_DW_mult_uns_6
+multiplier/mult_44                  616.6692      2.8    616.6692     0.0000  0.0000  pipe_2_DW_mult_uns_5
+multiplier/mult_45                  616.6692      2.8    616.6692     0.0000  0.0000  pipe_2_DW_mult_uns_7
+multiplier/mult_48                  647.9676      2.9    647.9676     0.0000  0.0000  pipe_2_DW_mult_uns_21
+multiplier/mult_49                  616.6692      2.8    616.6692     0.0000  0.0000  pipe_2_DW_mult_uns_2
+multiplier/mult_50                  616.6692      2.8    616.6692     0.0000  0.0000  pipe_2_DW_mult_uns_1
+multiplier/mult_51                  616.6692      2.8    616.6692     0.0000  0.0000  pipe_2_DW_mult_uns_3
+multiplier/mult_54                  647.9676      2.9    647.9676     0.0000  0.0000  pipe_2_DW_mult_uns_22
+multiplier/mult_55                  616.6692      2.8    616.6692     0.0000  0.0000  pipe_2_DW_mult_uns_14
+multiplier/mult_56                  616.6692      2.8    616.6692     0.0000  0.0000  pipe_2_DW_mult_uns_13
+multiplier/mult_57                  616.6692      2.8    616.6692     0.0000  0.0000  pipe_2_DW_mult_uns_15
+multiplier/mult_60                  647.9676      2.9    647.9676     0.0000  0.0000  pipe_2_DW_mult_uns_23
+multiplier/mult_61                  616.6692      2.8    616.6692     0.0000  0.0000  pipe_2_DW_mult_uns_10
+multiplier/mult_62                  616.6692      2.8    616.6692     0.0000  0.0000  pipe_2_DW_mult_uns_9
+multiplier/mult_63                  616.6692      2.8    616.6692     0.0000  0.0000  pipe_2_DW_mult_uns_11
+multiplier/r496                      27.8964      0.1     27.8964     0.0000  0.0000  pipe_2_DW01_add_3_DW01_add_6
+multiplier/r498                      27.8964      0.1     27.8964     0.0000  0.0000  pipe_2_DW01_add_2_DW01_add_5
+multiplier/r500                      27.8964      0.1     27.8964     0.0000  0.0000  pipe_2_DW01_add_1_DW01_add_4
+multiplier/r502                      27.8964      0.1     27.8964     0.0000  0.0000  pipe_2_DW01_add_0_DW01_add_3
+round_packing                      1181.8548      5.3   1080.7020     0.0000  0.0000  pipe_5
+round_packing/add_50                 20.1852      0.1     20.1852     0.0000  0.0000  pipe_5_DW01_inc_1
+round_packing/add_53                 49.6692      0.2     49.6692     0.0000  0.0000  pipe_5_DW01_inc_0
+round_packing/sub_29_2               31.2984      0.1     31.2984     0.0000  0.0000  pipe_5_DW01_sub_0
+unpacking                           214.3260      1.0    214.3260     0.0000  0.0000  pipe_1
+--------------------------------  ----------  -------  ----------  ---------  ------  ------------------------------
+Total                                                  18915.8001  3434.6590  0.0000
+
+1

@@ -1,0 +1,88 @@
+ 
+****************************************
+Report : area
+Design : dp_nonpipe
+Version: Q-2019.12
+Date   : Wed Nov 30 16:44:26 2022
+****************************************
+
+Library(s) Used:
+
+    sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c (File: /usr/cad/CBDK_TSMC40_Arm_f2.0/CIC/SynopsysDC/db/sc9_base_rvt/sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c.db)
+
+Number of ports:                         3141
+Number of nets:                         15942
+Number of cells:                        11021
+Number of combinational cells:          10976
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                       2037
+Number of references:                     180
+
+Combinational area:              16848.518105
+Buf/Inv area:                     1106.557187
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 16848.518105
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  -------------------------
+dp_nonpipe                        16848.5181    100.0   5561.1359     0.0000  0.0000  dp_nonpipe
+add_0_root_add_0_root_add_191_2     118.1628      0.7    118.1628     0.0000  0.0000  dp_nonpipe_DW01_add_25
+add_0_root_add_0_root_add_192_2     118.1628      0.7    118.1628     0.0000  0.0000  dp_nonpipe_DW01_add_24
+add_0_root_add_0_root_add_193_2     118.8432      0.7    118.8432     0.0000  0.0000  dp_nonpipe_DW01_add_22
+add_0_root_add_0_root_add_194_2     120.2040      0.7    120.2040     0.0000  0.0000  dp_nonpipe_DW01_add_23
+add_0_root_add_260_S2_ni            116.5752      0.7    116.5752     0.0000  0.0000  dp_nonpipe_DW01_inc_5
+add_0_root_add_263_S2_ni            115.6680      0.7    115.6680     0.0000  0.0000  dp_nonpipe_DW01_inc_4
+add_0_root_add_266_S2_ni            113.4000      0.7    113.4000     0.0000  0.0000  dp_nonpipe_DW01_inc_2
+add_0_root_add_269_S2_ni            113.4000      0.7    113.4000     0.0000  0.0000  dp_nonpipe_DW01_inc_3
+add_0_root_add_326_S2_ni            115.4412      0.7    115.4412     0.0000  0.0000  dp_nonpipe_DW01_inc_6
+add_1_root_add_0_root_add_191_2      85.9572      0.5     85.9572     0.0000  0.0000  dp_nonpipe_DW01_add_14
+add_1_root_add_0_root_add_192_2      85.9572      0.5     85.9572     0.0000  0.0000  dp_nonpipe_DW01_add_12
+add_1_root_add_0_root_add_193_2      85.9572      0.5     85.9572     0.0000  0.0000  dp_nonpipe_DW01_add_10
+add_1_root_add_0_root_add_194_2      85.9572      0.5     85.9572     0.0000  0.0000  dp_nonpipe_DW01_add_8
+add_278                             277.6032      1.6    277.6032     0.0000  0.0000  dp_nonpipe_DW01_add_16
+add_279                             271.7064      1.6    271.7064     0.0000  0.0000  dp_nonpipe_DW01_add_19
+add_319                             221.8104      1.3    221.8104     0.0000  0.0000  dp_nonpipe_DW01_add_26
+add_372                              22.4532      0.1     22.4532     0.0000  0.0000  dp_nonpipe_DW01_inc_1
+add_375                              77.7924      0.5     77.7924     0.0000  0.0000  dp_nonpipe_DW01_inc_7
+mult_167                            702.3996      4.2    702.3996     0.0000  0.0000  dp_nonpipe_DW_mult_uns_23
+mult_168                            516.1968      3.1    516.1968     0.0000  0.0000  dp_nonpipe_DW_mult_uns_15
+mult_169                            517.5576      3.1    517.5576     0.0000  0.0000  dp_nonpipe_DW_mult_uns_13
+mult_170                            449.2908      2.7    449.2908     0.0000  0.0000  dp_nonpipe_DW_mult_uns_12
+mult_173                            683.5752      4.1    683.5752     0.0000  0.0000  dp_nonpipe_DW_mult_uns_22
+mult_174                            516.8772      3.1    516.8772     0.0000  0.0000  dp_nonpipe_DW_mult_uns_11
+mult_175                            516.8772      3.1    516.8772     0.0000  0.0000  dp_nonpipe_DW_mult_uns_9
+mult_176                            449.2908      2.7    449.2908     0.0000  0.0000  dp_nonpipe_DW_mult_uns_8
+mult_179                            686.5236      4.1    686.5236     0.0000  0.0000  dp_nonpipe_DW_mult_uns_20
+mult_180                            516.1968      3.1    516.1968     0.0000  0.0000  dp_nonpipe_DW_mult_uns_7
+mult_181                            520.0524      3.1    520.0524     0.0000  0.0000  dp_nonpipe_DW_mult_uns_5
+mult_182                            449.2908      2.7    449.2908     0.0000  0.0000  dp_nonpipe_DW_mult_uns_4
+mult_185                            676.9980      4.0    676.9980     0.0000  0.0000  dp_nonpipe_DW_mult_uns_21
+mult_186                            516.8772      3.1    516.8772     0.0000  0.0000  dp_nonpipe_DW_mult_uns_3
+mult_187                            521.6400      3.1    521.6400     0.0000  0.0000  dp_nonpipe_DW_mult_uns_1
+mult_188                            449.2908      2.7    449.2908     0.0000  0.0000  dp_nonpipe_DW_mult_uns_0
+r814                                 27.8964      0.2     27.8964     0.0000  0.0000  dp_nonpipe_DW01_add_6
+r816                                 27.8964      0.2     27.8964     0.0000  0.0000  dp_nonpipe_DW01_add_5
+r818                                 27.8964      0.2     27.8964     0.0000  0.0000  dp_nonpipe_DW01_add_4
+r820                                 27.8964      0.2     27.8964     0.0000  0.0000  dp_nonpipe_DW01_add_3
+sub_209                              31.7520      0.2     31.7520     0.0000  0.0000  dp_nonpipe_DW01_sub_8
+sub_209_2                            31.7520      0.2     31.7520     0.0000  0.0000  dp_nonpipe_DW01_sub_7
+sub_211                              31.7520      0.2     31.7520     0.0000  0.0000  dp_nonpipe_DW01_sub_4
+sub_211_2                            31.7520      0.2     31.7520     0.0000  0.0000  dp_nonpipe_DW01_sub_3
+sub_289                              31.7520      0.2     31.7520     0.0000  0.0000  dp_nonpipe_DW01_sub_6
+sub_289_2                            31.7520      0.2     31.7520     0.0000  0.0000  dp_nonpipe_DW01_sub_5
+sub_351_2                            31.2984      0.2     31.2984     0.0000  0.0000  dp_nonpipe_DW01_sub_0
+--------------------------------  ----------  -------  ----------  ---------  ------  -------------------------
+Total                                                  16848.5181     0.0000  0.0000
+
+1

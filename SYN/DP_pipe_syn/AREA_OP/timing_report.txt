@@ -1,0 +1,134 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : dp_pipe
+Version: Q-2019.12
+Date   : Thu Dec  1 01:08:54 2022
+****************************************
+
+Operating Conditions: ss_typical_max_0p81v_125c   Library: sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c
+Wire Load Model Mode: top
+
+  Startpoint: R3/adder_exp_1_o_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: R4/sum_mul_all_pos_o_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  dp_pipe            Zero                  sc9_cln40g_base_rvt_ss_typical_max_0p81v_125c
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  R3/adder_exp_1_o_reg_0_/CK (DFFRPQ_X2M_A9TR)            0.00       0.00 r
+  R3/adder_exp_1_o_reg_0_/Q (DFFRPQ_X2M_A9TR)             0.12       0.12 r
+  R3/adder_exp_1_o[0] (reg_3)                             0.00       0.12 r
+  DP_adder_L2/adder_exp_1[0] (pipe_4)                     0.00       0.12 r
+  DP_adder_L2/U1098/Y (INV_X1M_A9TR)                      0.02       0.14 f
+  DP_adder_L2/U1125/Y (NOR2_X0P5A_A9TR)                   0.06       0.20 r
+  DP_adder_L2/U1126/CON (CGENI_X1M_A9TR)                  0.05       0.25 f
+  DP_adder_L2/U1128/Y (OAI211_X0P5M_A9TR)                 0.06       0.31 r
+  DP_adder_L2/U1129/Y (NAND3BB_X0P5M_A9TR)                0.03       0.35 f
+  DP_adder_L2/U1130/Y (NAND3_X0P5A_A9TR)                  0.03       0.38 r
+  DP_adder_L2/U1133/Y (AOI32_X0P5M_A9TR)                  0.05       0.43 f
+  DP_adder_L2/U3/Y (OA21_X1M_A9TR)                        0.09       0.52 f
+  DP_adder_L2/U700/Y (INV_X1M_A9TR)                       0.27       0.79 r
+  DP_adder_L2/U1142/Y (OR2_X0P5B_A9TR)                    0.16       0.95 r
+  DP_adder_L2/U296/Y (NOR2B_X1M_A9TR)                     0.19       1.14 r
+  DP_adder_L2/U995/Y (AO22_X1M_A9TR)                      0.12       1.26 r
+  DP_adder_L2/U762/Y (BUFH_X1M_A9TR)                      0.05       1.31 r
+  DP_adder_L2/U372/Y (BUFH_X1M_A9TR)                      0.04       1.35 r
+  DP_adder_L2/U107/Y (BUFH_X1M_A9TR)                      0.14       1.49 r
+  DP_adder_L2/U1012/Y (MXT2_X0P7M_A9TR)                   0.12       1.62 f
+  DP_adder_L2/U592/Y (MXIT2_X0P7M_A9TR)                   0.06       1.68 r
+  DP_adder_L2/U305/Y (MXIT2_X0P7M_A9TR)                   0.06       1.73 f
+  DP_adder_L2/U297/Y (MXIT2_X0P7M_A9TR)                   0.09       1.83 r
+  DP_adder_L2/U80/Y (MXIT2_X0P7M_A9TR)                    0.07       1.89 f
+  DP_adder_L2/U993/Y (MXIT2_X0P7M_A9TR)                   0.07       1.96 r
+  DP_adder_L2/U992/Y (MXIT2_X0P7M_A9TR)                   0.06       2.02 f
+  DP_adder_L2/U991/Y (AO22_X1M_A9TR)                      0.11       2.13 f
+  DP_adder_L2/add_47/B[0] (pipe_4_DW01_add_0)             0.00       2.13 f
+  DP_adder_L2/add_47/U1/Y (AND2_X1B_A9TR)                 0.06       2.19 f
+  DP_adder_L2/add_47/U1_1/CO (ADDF_X1M_A9TR)              0.08       2.27 f
+  DP_adder_L2/add_47/U1_2/CO (ADDF_X1M_A9TR)              0.08       2.35 f
+  DP_adder_L2/add_47/U1_3/CO (ADDF_X1M_A9TR)              0.08       2.44 f
+  DP_adder_L2/add_47/U1_4/CO (ADDF_X1M_A9TR)              0.08       2.52 f
+  DP_adder_L2/add_47/U1_5/CO (ADDF_X1M_A9TR)              0.08       2.60 f
+  DP_adder_L2/add_47/U1_6/CO (ADDF_X1M_A9TR)              0.08       2.68 f
+  DP_adder_L2/add_47/U1_7/CO (ADDF_X1M_A9TR)              0.08       2.77 f
+  DP_adder_L2/add_47/U1_8/CO (ADDF_X1M_A9TR)              0.08       2.85 f
+  DP_adder_L2/add_47/U1_9/CO (ADDF_X1M_A9TR)              0.08       2.93 f
+  DP_adder_L2/add_47/U1_10/CO (ADDF_X1M_A9TR)             0.08       3.01 f
+  DP_adder_L2/add_47/U1_11/CO (ADDF_X1M_A9TR)             0.08       3.09 f
+  DP_adder_L2/add_47/U1_12/CO (ADDF_X1M_A9TR)             0.08       3.18 f
+  DP_adder_L2/add_47/U1_13/CO (ADDF_X1M_A9TR)             0.08       3.26 f
+  DP_adder_L2/add_47/U1_14/CO (ADDF_X1M_A9TR)             0.08       3.34 f
+  DP_adder_L2/add_47/U1_15/CO (ADDF_X1M_A9TR)             0.08       3.42 f
+  DP_adder_L2/add_47/U1_16/CO (ADDF_X1M_A9TR)             0.08       3.51 f
+  DP_adder_L2/add_47/U1_17/CO (ADDF_X1M_A9TR)             0.08       3.59 f
+  DP_adder_L2/add_47/U1_18/CO (ADDF_X1M_A9TR)             0.08       3.67 f
+  DP_adder_L2/add_47/U1_19/CO (ADDF_X1M_A9TR)             0.08       3.75 f
+  DP_adder_L2/add_47/U1_20/CO (ADDF_X1M_A9TR)             0.08       3.83 f
+  DP_adder_L2/add_47/U1_21/CO (ADDF_X1M_A9TR)             0.08       3.92 f
+  DP_adder_L2/add_47/U1_22/CO (ADDF_X1M_A9TR)             0.08       4.00 f
+  DP_adder_L2/add_47/U1_23/CO (ADDF_X1M_A9TR)             0.08       4.08 f
+  DP_adder_L2/add_47/U1_24/CO (ADDF_X1M_A9TR)             0.08       4.16 f
+  DP_adder_L2/add_47/U1_25/CO (ADDF_X1M_A9TR)             0.08       4.25 f
+  DP_adder_L2/add_47/U1_26/CO (ADDF_X1M_A9TR)             0.08       4.33 f
+  DP_adder_L2/add_47/U1_27/CO (ADDF_X1M_A9TR)             0.08       4.41 f
+  DP_adder_L2/add_47/U1_28/CO (ADDF_X1M_A9TR)             0.08       4.49 f
+  DP_adder_L2/add_47/U1_29/CO (ADDF_X1M_A9TR)             0.08       4.57 f
+  DP_adder_L2/add_47/U1_30/CO (ADDF_X1M_A9TR)             0.08       4.66 f
+  DP_adder_L2/add_47/U1_31/CO (ADDF_X1M_A9TR)             0.08       4.74 f
+  DP_adder_L2/add_47/U1_32/CO (ADDF_X1M_A9TR)             0.08       4.82 f
+  DP_adder_L2/add_47/U1_33/CO (ADDF_X1M_A9TR)             0.08       4.90 f
+  DP_adder_L2/add_47/U1_34/CO (ADDF_X1M_A9TR)             0.08       4.99 f
+  DP_adder_L2/add_47/U1_35/CO (ADDF_X1M_A9TR)             0.08       5.07 f
+  DP_adder_L2/add_47/U1_36/CO (ADDF_X1M_A9TR)             0.08       5.15 f
+  DP_adder_L2/add_47/U1_37/CO (ADDF_X1M_A9TR)             0.08       5.23 f
+  DP_adder_L2/add_47/U1_38/CO (ADDF_X1M_A9TR)             0.08       5.31 f
+  DP_adder_L2/add_47/U1_39/CO (ADDF_X1M_A9TR)             0.08       5.40 f
+  DP_adder_L2/add_47/U1_40/CO (ADDF_X1M_A9TR)             0.08       5.48 f
+  DP_adder_L2/add_47/U1_41/CO (ADDF_X1M_A9TR)             0.08       5.56 f
+  DP_adder_L2/add_47/U1_42/CO (ADDF_X1M_A9TR)             0.08       5.64 f
+  DP_adder_L2/add_47/U1_43/CO (ADDF_X1M_A9TR)             0.08       5.73 f
+  DP_adder_L2/add_47/U1_44/CO (ADDF_X1M_A9TR)             0.08       5.81 f
+  DP_adder_L2/add_47/U1_45/CO (ADDF_X1M_A9TR)             0.08       5.89 f
+  DP_adder_L2/add_47/U1_46/CO (ADDF_X1M_A9TR)             0.08       5.97 f
+  DP_adder_L2/add_47/U1_47/CO (ADDF_X1M_A9TR)             0.08       6.06 f
+  DP_adder_L2/add_47/U1_48/CO (ADDF_X1M_A9TR)             0.08       6.14 f
+  DP_adder_L2/add_47/U1_49/CO (ADDF_X1M_A9TR)             0.08       6.22 f
+  DP_adder_L2/add_47/U1_50/CO (ADDF_X1M_A9TR)             0.08       6.30 f
+  DP_adder_L2/add_47/U1_51/S (ADDF_X1M_A9TR)              0.11       6.41 r
+  DP_adder_L2/add_47/SUM[51] (pipe_4_DW01_add_0)          0.00       6.41 r
+  DP_adder_L2/U365/Y (BUFH_X1M_A9TR)                      0.04       6.44 r
+  DP_adder_L2/U128/Y (INV_X1M_A9TR)                       0.05       6.49 f
+  DP_adder_L2/U42/Y (BUFH_X1M_A9TR)                       0.06       6.55 f
+  DP_adder_L2/U5/Y (INV_X1M_A9TR)                         0.10       6.65 r
+  DP_adder_L2/U710/Y (AO22_X1M_A9TR)                      0.10       6.75 r
+  DP_adder_L2/sum_mul_all_pos[1] (pipe_4)                 0.00       6.75 r
+  R4/sum_mul_all_pos[1] (reg_4)                           0.00       6.75 r
+  R4/sum_mul_all_pos_o_reg_1_/D (DFFRPQ_X2M_A9TR)         0.00       6.75 r
+  data arrival time                                                  6.75
+
+  clock clk (rise edge)                                   6.80       6.80
+  clock network delay (ideal)                             0.00       6.80
+  R4/sum_mul_all_pos_o_reg_1_/CK (DFFRPQ_X2M_A9TR)        0.00       6.80 r
+  library setup time                                     -0.04       6.76
+  data required time                                                 6.76
+  --------------------------------------------------------------------------
+  data required time                                                 6.76
+  data arrival time                                                 -6.75
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.01
+
+
+1
